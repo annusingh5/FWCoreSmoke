@@ -4,6 +4,10 @@
   <test name="Test">
     <classes>
       <class name="QaEssentialsTestNG.QaEssentialsTestNG.TableFeatures"/>
+      
+      
+      
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

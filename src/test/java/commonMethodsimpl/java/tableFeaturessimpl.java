@@ -39,7 +39,7 @@ public class tableFeaturessimpl extends Base implements tableFeatures {
 		String bodyText = driver.findElement(By.xpath("//*[@id='userinfo']/div")).getText();
 		Assert.assertEquals("CHEVIN:ANNU", bodyText);
 	}
-	
+	//To Do
 	@Override
 	public void vehicleCriteriaSearch(){
 		String[] exp = {"REGISTRATION NUMBER", "VEHICLE TYPE", "FLEET NO", "ON-FLEET DATE", "TRACKER FITTED", "ODOMETER", "MAKE", "MODEL", "CO2 G/KM", "VEHICLE STATUS", "NEXT SERVICE DATE", "NEXT INSPECTION", "MOT DATE","COSTCENTRE","DRIVER NAME","MPG (UK)","DISTANCE PER MONTH","DISTANCE PER YEAR"}; 
@@ -52,7 +52,7 @@ public class tableFeaturessimpl extends Base implements tableFeatures {
 		
 		for(WebElement we:options)  
         { 
-		for (int i=0; i<exp.length; i++){
+		for (int i=0; i<options[i]; i++){
              Assert.assertEquals(we.getText(),exp[i]);
             
          }

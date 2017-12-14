@@ -50,11 +50,11 @@ public class TableFeatures extends GeneralMethodsimpl{
 		clickCustomFilter();
 		tableFeatures.applyFilter();
 	}
-	/*
+	
 	@AfterTest
 	public void CleanUp(){
 		email.email();
-	}*/
+	}
 	}
 	
 
