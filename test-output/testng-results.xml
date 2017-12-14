@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="146935" started-at="2017-12-14T04:38:43Z" finished-at="2017-12-14T04:41:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="146935" started-at="2017-12-14T04:38:43Z" finished-at="2017-12-14T04:41:10Z">
+      <class name="QaEssentialsTestNG.QaEssentialsTestNG.TableFeatures">
+        <test-method status="PASS" signature="Login()[pri:1, instance:QaEssentialsTestNG.QaEssentialsTestNG.TableFeatures@5700d6b1]" name="Login" duration-ms="58013" started-at="2017-12-14T10:08:43Z" description="SI1.1" finished-at="2017-12-14T10:09:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="FAIL" signature="Search()[pri:2, instance:QaEssentialsTestNG.QaEssentialsTestNG.TableFeatures@5700d6b1]" name="Search" duration-ms="6240" started-at="2017-12-14T10:09:41Z" description="TF1.1,TF1.2,TF1.3" finished-at="2017-12-14T10:09:47Z">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[VEHICLE ID]> but was:<[REGISTRATION NUMBER]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<[VEHICLE ID]> but was:<[REGISTRATION NUMBER]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at commonMethodsimpl.java.tableFeaturessimpl.vehicleCriteriaSearch(tableFeaturessimpl.java:56)
+	at QaEssentialsTestNG.QaEssentialsTestNG.TableFeatures.Search(TableFeatures.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="FAIL" signature="NoResultSearch()[pri:3, instance:QaEssentialsTestNG.QaEssentialsTestNG.TableFeatures@5700d6b1]" name="NoResultSearch" duration-ms="7419" started-at="2017-12-14T10:09:47Z" description="TF1.4" finished-at="2017-12-14T10:09:54Z">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[VEHICLE ID]> but was:<[REGISTRATION NUMBER]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<[VEHICLE ID]> but was:<[REGISTRATION NUMBER]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at commonMethodsimpl.java.tableFeaturessimpl.vehicleCriteriaSearch(tableFeaturessimpl.java:56)
+	at QaEssentialsTestNG.QaEssentialsTestNG.TableFeatures.NoResultSearch(TableFeatures.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NoResultSearch -->
+        <test-method status="PASS" signature="OpenFilterWindowAndClose()[pri:3, instance:QaEssentialsTestNG.QaEssentialsTestNG.TableFeatures@5700d6b1]" name="OpenFilterWindowAndClose" duration-ms="54982" started-at="2017-12-14T10:09:54Z" description="TF2.3,TF2.4" finished-at="2017-12-14T10:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFilterWindowAndClose -->
+        <test-method status="PASS" signature="ApplyFilter()[pri:4, instance:QaEssentialsTestNG.QaEssentialsTestNG.TableFeatures@5700d6b1]" name="ApplyFilter" duration-ms="20245" started-at="2017-12-14T10:10:49Z" description="TF2.5" finished-at="2017-12-14T10:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplyFilter -->
+      </class> <!-- QaEssentialsTestNG.QaEssentialsTestNG.TableFeatures -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

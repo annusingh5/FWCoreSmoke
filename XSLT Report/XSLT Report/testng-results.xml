@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="88" passed="88">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyTestSuite" duration-ms="169676" started-at="2017-06-22T08:53:37Z" finished-at="2017-06-22T08:56:26Z">
+    <groups>
+    </groups>
+    <test name="MyTests" duration-ms="169676" started-at="2017-06-22T08:53:37Z" finished-at="2017-06-22T08:56:26Z">
+      <class name="Chevin365.Chevin365.TranslationsIE">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="initDriver" duration-ms="8954" started-at="2017-06-22T14:23:46Z" finished-at="2017-06-22T14:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="LoginLabelsDisplay()[pri:1, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="LoginLabelsDisplay" duration-ms="39998" started-at="2017-06-22T14:24:35Z" finished-at="2017-06-22T14:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLabelsDisplay -->
+        <test-method status="PASS" signature="ChevinLogoDisplay()[pri:2, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="ChevinLogoDisplay" duration-ms="150" started-at="2017-06-22T14:25:15Z" finished-at="2017-06-22T14:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChevinLogoDisplay -->
+        <test-method status="PASS" signature="Logo365Display()[pri:3, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="Logo365Display" duration-ms="100" started-at="2017-06-22T14:25:15Z" finished-at="2017-06-22T14:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo365Display -->
+        <test-method status="PASS" signature="RememberMeCheckboxDisplay()[pri:4, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="RememberMeCheckboxDisplay" duration-ms="132" started-at="2017-06-22T14:25:15Z" finished-at="2017-06-22T14:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RememberMeCheckboxDisplay -->
+        <test-method status="PASS" signature="LoginButtonDisplay()[pri:5, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="LoginButtonDisplay" duration-ms="116" started-at="2017-06-22T14:25:16Z" finished-at="2017-06-22T14:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginButtonDisplay -->
+        <test-method status="PASS" signature="CopyrightDisplay()[pri:6, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="CopyrightDisplay" duration-ms="113" started-at="2017-06-22T14:25:16Z" finished-at="2017-06-22T14:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyrightDisplay -->
+        <test-method status="PASS" signature="LoginWithInvalidCredentials()[pri:7, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="LoginWithInvalidCredentials" duration-ms="1527" started-at="2017-06-22T14:25:16Z" finished-at="2017-06-22T14:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidCredentials -->
+        <test-method status="PASS" signature="LoginWithValidCredentials()[pri:8, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="LoginWithValidCredentials" duration-ms="6609" started-at="2017-06-22T14:25:24Z" finished-at="2017-06-22T14:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method status="PASS" signature="EditCoreTranslations()[pri:9, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="EditCoreTranslations" duration-ms="4367" started-at="2017-06-22T14:25:32Z" finished-at="2017-06-22T14:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditCoreTranslations -->
+        <test-method status="PASS" signature="CancelEditCoreTranslations()[pri:10, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="CancelEditCoreTranslations" duration-ms="2919" started-at="2017-06-22T14:25:37Z" finished-at="2017-06-22T14:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelEditCoreTranslations -->
+        <test-method status="PASS" signature="VerifyAddCTMandatoryFields()[pri:11, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="VerifyAddCTMandatoryFields" duration-ms="1443" started-at="2017-06-22T14:25:41Z" finished-at="2017-06-22T14:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddCTMandatoryFields -->
+        <test-method status="PASS" signature="AddCoreTranslationRecord()[pri:12, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="AddCoreTranslationRecord" duration-ms="2530" started-at="2017-06-22T14:25:43Z" finished-at="2017-06-22T14:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCoreTranslationRecord -->
+        <test-method status="PASS" signature="CancelAddingCoreTranslationRecord()[pri:13, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="CancelAddingCoreTranslationRecord" duration-ms="3264" started-at="2017-06-22T14:25:46Z" finished-at="2017-06-22T14:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelAddingCoreTranslationRecord -->
+        <test-method status="PASS" signature="verifyCoreHistoryTab()[pri:14, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyCoreHistoryTab" duration-ms="796" started-at="2017-06-22T14:25:50Z" finished-at="2017-06-22T14:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryTab -->
+        <test-method status="PASS" signature="verifyCoreHistoryCultureLabel()[pri:15, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyCoreHistoryCultureLabel" duration-ms="876" started-at="2017-06-22T14:25:51Z" finished-at="2017-06-22T14:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryCultureLabel -->
+        <test-method status="PASS" signature="verifyCoreHistoryExpressionLabel()[pri:16, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyCoreHistoryExpressionLabel" duration-ms="685" started-at="2017-06-22T14:25:53Z" finished-at="2017-06-22T14:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryExpressionLabel -->
+        <test-method status="PASS" signature="verifyCoreHistoryTranslateToLabel()[pri:17, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyCoreHistoryTranslateToLabel" duration-ms="699" started-at="2017-06-22T14:25:54Z" finished-at="2017-06-22T14:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryTranslateToLabel -->
+        <test-method status="PASS" signature="verifyCoreHistoryCreatedByLabel()[pri:18, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyCoreHistoryCreatedByLabel" duration-ms="695" started-at="2017-06-22T14:25:55Z" finished-at="2017-06-22T14:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryCreatedByLabel -->
+        <test-method status="PASS" signature="verifyCoreHistoryArchivedDateLabel()[pri:19, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyCoreHistoryArchivedDateLabel" duration-ms="675" started-at="2017-06-22T14:25:56Z" finished-at="2017-06-22T14:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryArchivedDateLabel -->
+        <test-method status="PASS" signature="verifyCoreHistoryArchivedByLabel()[pri:20, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyCoreHistoryArchivedByLabel" duration-ms="684" started-at="2017-06-22T14:25:57Z" finished-at="2017-06-22T14:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryArchivedByLabel -->
+        <test-method status="PASS" signature="verifyCoreHistoryArchiveStatusLabel()[pri:21, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyCoreHistoryArchiveStatusLabel" duration-ms="684" started-at="2017-06-22T14:25:59Z" finished-at="2017-06-22T14:25:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryArchiveStatusLabel -->
+        <test-method status="PASS" signature="verifyClientTabLabels()[pri:22, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientTabLabels" duration-ms="842" started-at="2017-06-22T14:26:00Z" finished-at="2017-06-22T14:26:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientTabLabels -->
+        <test-method status="PASS" signature="verifyClientCultureLabel()[pri:23, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientCultureLabel" duration-ms="641" started-at="2017-06-22T14:26:01Z" finished-at="2017-06-22T14:26:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientCultureLabel -->
+        <test-method status="PASS" signature="verifyClientExpressionLabel()[pri:24, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientExpressionLabel" duration-ms="623" started-at="2017-06-22T14:26:02Z" finished-at="2017-06-22T14:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientExpressionLabel -->
+        <test-method status="PASS" signature="verifyClientTranslateToLabel()[pri:25, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientTranslateToLabel" duration-ms="641" started-at="2017-06-22T14:26:04Z" finished-at="2017-06-22T14:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientTranslateToLabel -->
+        <test-method status="PASS" signature="verifyClientNameOfCientLabel()[pri:26, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientNameOfCientLabel" duration-ms="623" started-at="2017-06-22T14:26:05Z" finished-at="2017-06-22T14:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientNameOfCientLabel -->
+        <test-method status="PASS" signature="verifyClientChangedByLabel()[pri:27, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientChangedByLabel" duration-ms="639" started-at="2017-06-22T14:26:06Z" finished-at="2017-06-22T14:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientChangedByLabel -->
+        <test-method status="PASS" signature="verifyClientCreatedByLabel()[pri:28, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientCreatedByLabel" duration-ms="621" started-at="2017-06-22T14:26:07Z" finished-at="2017-06-22T14:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientCreatedByLabel -->
+        <test-method status="PASS" signature="verifyClientHistoryTabLabels()[pri:29, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientHistoryTabLabels" duration-ms="732" started-at="2017-06-22T14:26:08Z" finished-at="2017-06-22T14:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryTabLabels -->
+        <test-method status="PASS" signature="verifyClientHistoryCultureLabel()[pri:30, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientHistoryCultureLabel" duration-ms="625" started-at="2017-06-22T14:26:10Z" finished-at="2017-06-22T14:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryCultureLabel -->
+        <test-method status="PASS" signature="verifyClientHistoryExpressionLabel()[pri:31, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientHistoryExpressionLabel" duration-ms="627" started-at="2017-06-22T14:26:11Z" finished-at="2017-06-22T14:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryExpressionLabel -->
+        <test-method status="PASS" signature="verifyClientHistoryTranslateToLabel()[pri:32, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientHistoryTranslateToLabel" duration-ms="636" started-at="2017-06-22T14:26:12Z" finished-at="2017-06-22T14:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryTranslateToLabel -->
+        <test-method status="PASS" signature="verifyClientHistoryNameOfCientLabel()[pri:33, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientHistoryNameOfCientLabel" duration-ms="640" started-at="2017-06-22T14:26:13Z" finished-at="2017-06-22T14:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryNameOfCientLabel -->
+        <test-method status="PASS" signature="verifyClientHistoryChangedByLabel()[pri:34, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientHistoryChangedByLabel" duration-ms="622" started-at="2017-06-22T14:26:14Z" finished-at="2017-06-22T14:26:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryChangedByLabel -->
+        <test-method status="PASS" signature="verifyClientHistoryCreatedByLabel()[pri:35, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyClientHistoryCreatedByLabel" duration-ms="633" started-at="2017-06-22T14:26:15Z" finished-at="2017-06-22T14:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryCreatedByLabel -->
+        <test-method status="PASS" signature="verifyVarianceTabLabels()[pri:36, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="verifyVarianceTabLabels" duration-ms="858" started-at="2017-06-22T14:26:17Z" finished-at="2017-06-22T14:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVarianceTabLabels -->
+        <test-method status="PASS" signature="UsernameDisplayInHomePage()[pri:37, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="UsernameDisplayInHomePage" duration-ms="423" started-at="2017-06-22T14:26:18Z" finished-at="2017-06-22T14:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsernameDisplayInHomePage -->
+        <test-method status="PASS" signature="CopyrightDisplayInHomePage()[pri:38, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="CopyrightDisplayInHomePage" duration-ms="456" started-at="2017-06-22T14:26:19Z" finished-at="2017-06-22T14:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyrightDisplayInHomePage -->
+        <test-method status="PASS" signature="SelectAll()[pri:39, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="SelectAll" duration-ms="1900" started-at="2017-06-22T14:26:20Z" finished-at="2017-06-22T14:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectAll -->
+        <test-method status="PASS" signature="DeleteDisabledOnSelectAll()[pri:40, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="DeleteDisabledOnSelectAll" duration-ms="0" started-at="2017-06-22T14:26:22Z" finished-at="2017-06-22T14:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDisabledOnSelectAll -->
+        <test-method status="PASS" signature="DeleteEnabledOnMultipleRecords()[pri:41, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="DeleteEnabledOnMultipleRecords" duration-ms="788" started-at="2017-06-22T14:26:22Z" finished-at="2017-06-22T14:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEnabledOnMultipleRecords -->
+        <test-method status="PASS" signature="CancelDeletingRecord()[pri:42, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="CancelDeletingRecord" duration-ms="1193" started-at="2017-06-22T14:26:24Z" finished-at="2017-06-22T14:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelDeletingRecord -->
+        <test-method status="PASS" signature="DeleteCoreRecord()[pri:43, instance:Chevin365.Chevin365.TranslationsIE@771a660]" name="DeleteCoreRecord" duration-ms="1191" started-at="2017-06-22T14:26:25Z" finished-at="2017-06-22T14:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCoreRecord -->
+      </class> <!-- Chevin365.Chevin365.TranslationsIE -->
+      <class name="Chevin365.Chevin365.login">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:Chevin365.Chevin365.login@783a467b]" name="initDriver" duration-ms="9274" started-at="2017-06-22T14:23:37Z" finished-at="2017-06-22T14:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="LoginLabelsDisplay()[pri:1, instance:Chevin365.Chevin365.login@783a467b]" name="LoginLabelsDisplay" duration-ms="39999" started-at="2017-06-22T14:23:55Z" finished-at="2017-06-22T14:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLabelsDisplay -->
+        <test-method status="PASS" signature="ChevinLogoDisplay()[pri:2, instance:Chevin365.Chevin365.login@783a467b]" name="ChevinLogoDisplay" duration-ms="47" started-at="2017-06-22T14:25:15Z" finished-at="2017-06-22T14:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChevinLogoDisplay -->
+        <test-method status="PASS" signature="Logo365Display()[pri:3, instance:Chevin365.Chevin365.login@783a467b]" name="Logo365Display" duration-ms="42" started-at="2017-06-22T14:25:15Z" finished-at="2017-06-22T14:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo365Display -->
+        <test-method status="PASS" signature="RememberMeCheckboxDisplay()[pri:4, instance:Chevin365.Chevin365.login@783a467b]" name="RememberMeCheckboxDisplay" duration-ms="43" started-at="2017-06-22T14:25:15Z" finished-at="2017-06-22T14:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RememberMeCheckboxDisplay -->
+        <test-method status="PASS" signature="LoginButtonDisplay()[pri:5, instance:Chevin365.Chevin365.login@783a467b]" name="LoginButtonDisplay" duration-ms="40" started-at="2017-06-22T14:25:15Z" finished-at="2017-06-22T14:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginButtonDisplay -->
+        <test-method status="PASS" signature="CopyrightDisplay()[pri:6, instance:Chevin365.Chevin365.login@783a467b]" name="CopyrightDisplay" duration-ms="42" started-at="2017-06-22T14:25:16Z" finished-at="2017-06-22T14:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyrightDisplay -->
+        <test-method status="PASS" signature="LoginWithInvalidCredentials()[pri:7, instance:Chevin365.Chevin365.login@783a467b]" name="LoginWithInvalidCredentials" duration-ms="581" started-at="2017-06-22T14:25:16Z" finished-at="2017-06-22T14:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidCredentials -->
+        <test-method status="PASS" signature="LoginWithValidCredentials()[pri:8, instance:Chevin365.Chevin365.login@783a467b]" name="LoginWithValidCredentials" duration-ms="5661" started-at="2017-06-22T14:25:18Z" finished-at="2017-06-22T14:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method status="PASS" signature="EditCoreTranslations()[pri:9, instance:Chevin365.Chevin365.login@783a467b]" name="EditCoreTranslations" duration-ms="1435" started-at="2017-06-22T14:25:30Z" finished-at="2017-06-22T14:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditCoreTranslations -->
+        <test-method status="PASS" signature="CancelEditCoreTranslations()[pri:10, instance:Chevin365.Chevin365.login@783a467b]" name="CancelEditCoreTranslations" duration-ms="883" started-at="2017-06-22T14:25:36Z" finished-at="2017-06-22T14:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelEditCoreTranslations -->
+        <test-method status="PASS" signature="VerifyAddCTMandatoryFields()[pri:11, instance:Chevin365.Chevin365.login@783a467b]" name="VerifyAddCTMandatoryFields" duration-ms="939" started-at="2017-06-22T14:25:40Z" finished-at="2017-06-22T14:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddCTMandatoryFields -->
+        <test-method status="PASS" signature="AddCoreTranslationRecord()[pri:12, instance:Chevin365.Chevin365.login@783a467b]" name="AddCoreTranslationRecord" duration-ms="482" started-at="2017-06-22T14:25:42Z" finished-at="2017-06-22T14:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCoreTranslationRecord -->
+        <test-method status="PASS" signature="CancelAddingCoreTranslationRecord()[pri:13, instance:Chevin365.Chevin365.login@783a467b]" name="CancelAddingCoreTranslationRecord" duration-ms="560" started-at="2017-06-22T14:25:45Z" finished-at="2017-06-22T14:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelAddingCoreTranslationRecord -->
+        <test-method status="PASS" signature="verifyCoreHistoryTab()[pri:14, instance:Chevin365.Chevin365.login@783a467b]" name="verifyCoreHistoryTab" duration-ms="553" started-at="2017-06-22T14:25:49Z" finished-at="2017-06-22T14:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryTab -->
+        <test-method status="PASS" signature="verifyCoreHistoryCultureLabel()[pri:15, instance:Chevin365.Chevin365.login@783a467b]" name="verifyCoreHistoryCultureLabel" duration-ms="753" started-at="2017-06-22T14:25:50Z" finished-at="2017-06-22T14:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryCultureLabel -->
+        <test-method status="PASS" signature="verifyCoreHistoryExpressionLabel()[pri:16, instance:Chevin365.Chevin365.login@783a467b]" name="verifyCoreHistoryExpressionLabel" duration-ms="536" started-at="2017-06-22T14:25:52Z" finished-at="2017-06-22T14:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryExpressionLabel -->
+        <test-method status="PASS" signature="verifyCoreHistoryTranslateToLabel()[pri:17, instance:Chevin365.Chevin365.login@783a467b]" name="verifyCoreHistoryTranslateToLabel" duration-ms="539" started-at="2017-06-22T14:25:53Z" finished-at="2017-06-22T14:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryTranslateToLabel -->
+        <test-method status="PASS" signature="verifyCoreHistoryCreatedByLabel()[pri:18, instance:Chevin365.Chevin365.login@783a467b]" name="verifyCoreHistoryCreatedByLabel" duration-ms="537" started-at="2017-06-22T14:25:54Z" finished-at="2017-06-22T14:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryCreatedByLabel -->
+        <test-method status="PASS" signature="verifyCoreHistoryArchivedDateLabel()[pri:19, instance:Chevin365.Chevin365.login@783a467b]" name="verifyCoreHistoryArchivedDateLabel" duration-ms="536" started-at="2017-06-22T14:25:56Z" finished-at="2017-06-22T14:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryArchivedDateLabel -->
+        <test-method status="PASS" signature="verifyCoreHistoryArchivedByLabel()[pri:20, instance:Chevin365.Chevin365.login@783a467b]" name="verifyCoreHistoryArchivedByLabel" duration-ms="537" started-at="2017-06-22T14:25:57Z" finished-at="2017-06-22T14:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryArchivedByLabel -->
+        <test-method status="PASS" signature="verifyCoreHistoryArchiveStatusLabel()[pri:21, instance:Chevin365.Chevin365.login@783a467b]" name="verifyCoreHistoryArchiveStatusLabel" duration-ms="538" started-at="2017-06-22T14:25:58Z" finished-at="2017-06-22T14:25:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoreHistoryArchiveStatusLabel -->
+        <test-method status="PASS" signature="verifyClientTabLabels()[pri:22, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientTabLabels" duration-ms="565" started-at="2017-06-22T14:25:59Z" finished-at="2017-06-22T14:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientTabLabels -->
+        <test-method status="PASS" signature="verifyClientCultureLabel()[pri:23, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientCultureLabel" duration-ms="537" started-at="2017-06-22T14:26:01Z" finished-at="2017-06-22T14:26:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientCultureLabel -->
+        <test-method status="PASS" signature="verifyClientExpressionLabel()[pri:24, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientExpressionLabel" duration-ms="535" started-at="2017-06-22T14:26:02Z" finished-at="2017-06-22T14:26:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientExpressionLabel -->
+        <test-method status="PASS" signature="verifyClientTranslateToLabel()[pri:25, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientTranslateToLabel" duration-ms="534" started-at="2017-06-22T14:26:03Z" finished-at="2017-06-22T14:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientTranslateToLabel -->
+        <test-method status="PASS" signature="verifyClientNameOfCientLabel()[pri:26, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientNameOfCientLabel" duration-ms="549" started-at="2017-06-22T14:26:04Z" finished-at="2017-06-22T14:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientNameOfCientLabel -->
+        <test-method status="PASS" signature="verifyClientChangedByLabel()[pri:27, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientChangedByLabel" duration-ms="537" started-at="2017-06-22T14:26:05Z" finished-at="2017-06-22T14:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientChangedByLabel -->
+        <test-method status="PASS" signature="verifyClientCreatedByLabel()[pri:28, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientCreatedByLabel" duration-ms="536" started-at="2017-06-22T14:26:07Z" finished-at="2017-06-22T14:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientCreatedByLabel -->
+        <test-method status="PASS" signature="verifyClientHistoryTabLabels()[pri:29, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientHistoryTabLabels" duration-ms="547" started-at="2017-06-22T14:26:08Z" finished-at="2017-06-22T14:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryTabLabels -->
+        <test-method status="PASS" signature="verifyClientHistoryCultureLabel()[pri:30, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientHistoryCultureLabel" duration-ms="537" started-at="2017-06-22T14:26:09Z" finished-at="2017-06-22T14:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryCultureLabel -->
+        <test-method status="PASS" signature="verifyClientHistoryExpressionLabel()[pri:31, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientHistoryExpressionLabel" duration-ms="536" started-at="2017-06-22T14:26:10Z" finished-at="2017-06-22T14:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryExpressionLabel -->
+        <test-method status="PASS" signature="verifyClientHistoryTranslateToLabel()[pri:32, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientHistoryTranslateToLabel" duration-ms="559" started-at="2017-06-22T14:26:11Z" finished-at="2017-06-22T14:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryTranslateToLabel -->
+        <test-method status="PASS" signature="verifyClientHistoryNameOfCientLabel()[pri:33, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientHistoryNameOfCientLabel" duration-ms="535" started-at="2017-06-22T14:26:13Z" finished-at="2017-06-22T14:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryNameOfCientLabel -->
+        <test-method status="PASS" signature="verifyClientHistoryChangedByLabel()[pri:34, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientHistoryChangedByLabel" duration-ms="565" started-at="2017-06-22T14:26:14Z" finished-at="2017-06-22T14:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryChangedByLabel -->
+        <test-method status="PASS" signature="verifyClientHistoryCreatedByLabel()[pri:35, instance:Chevin365.Chevin365.login@783a467b]" name="verifyClientHistoryCreatedByLabel" duration-ms="534" started-at="2017-06-22T14:26:15Z" finished-at="2017-06-22T14:26:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientHistoryCreatedByLabel -->
+        <test-method status="PASS" signature="verifyVarianceTabLabels()[pri:36, instance:Chevin365.Chevin365.login@783a467b]" name="verifyVarianceTabLabels" duration-ms="572" started-at="2017-06-22T14:26:16Z" finished-at="2017-06-22T14:26:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVarianceTabLabels -->
+        <test-method status="PASS" signature="UsernameDisplayInHomePage()[pri:37, instance:Chevin365.Chevin365.login@783a467b]" name="UsernameDisplayInHomePage" duration-ms="337" started-at="2017-06-22T14:26:18Z" finished-at="2017-06-22T14:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsernameDisplayInHomePage -->
+        <test-method status="PASS" signature="CopyrightDisplayInHomePage()[pri:38, instance:Chevin365.Chevin365.login@783a467b]" name="CopyrightDisplayInHomePage" duration-ms="345" started-at="2017-06-22T14:26:18Z" finished-at="2017-06-22T14:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyrightDisplayInHomePage -->
+        <test-method status="PASS" signature="SelectAll()[pri:39, instance:Chevin365.Chevin365.login@783a467b]" name="SelectAll" duration-ms="1215" started-at="2017-06-22T14:26:19Z" finished-at="2017-06-22T14:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectAll -->
+        <test-method status="PASS" signature="DeleteDisabledOnSelectAll()[pri:40, instance:Chevin365.Chevin365.login@783a467b]" name="DeleteDisabledOnSelectAll" duration-ms="0" started-at="2017-06-22T14:26:22Z" finished-at="2017-06-22T14:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDisabledOnSelectAll -->
+        <test-method status="PASS" signature="DeleteEnabledOnMultipleRecords()[pri:41, instance:Chevin365.Chevin365.login@783a467b]" name="DeleteEnabledOnMultipleRecords" duration-ms="143" started-at="2017-06-22T14:26:22Z" finished-at="2017-06-22T14:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEnabledOnMultipleRecords -->
+        <test-method status="PASS" signature="CancelDeletingRecord()[pri:42, instance:Chevin365.Chevin365.login@783a467b]" name="CancelDeletingRecord" duration-ms="346" started-at="2017-06-22T14:26:23Z" finished-at="2017-06-22T14:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelDeletingRecord -->
+        <test-method status="PASS" signature="DeleteCoreRecord()[pri:43, instance:Chevin365.Chevin365.login@783a467b]" name="DeleteCoreRecord" duration-ms="501" started-at="2017-06-22T14:26:25Z" finished-at="2017-06-22T14:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCoreRecord -->
+      </class> <!-- Chevin365.Chevin365.login -->
+    </test> <!-- MyTests -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>
